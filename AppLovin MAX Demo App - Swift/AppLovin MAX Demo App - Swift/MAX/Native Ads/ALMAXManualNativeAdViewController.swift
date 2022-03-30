@@ -14,7 +14,7 @@ class ALMAXManualNativeAdViewController: ALBaseAdViewController
 {
     @IBOutlet weak var nativeAdContainerView: UIView!
     
-    private let nativeAdLoader: MANativeAdLoader = MANativeAdLoader(adUnitIdentifier: "YOUR_AD_UNIT")
+    private let nativeAdLoader: MANativeAdLoader = MANativeAdLoader(adUnitIdentifier: "f7f62883c4e659e1")
     
     private var nativeAdView: MANativeAdView!
     private var nativeAd: MAAd?

@@ -6,7 +6,7 @@ s.authors =
 }
 s.name = 'AppLovinMediationVerizonAdsAdapter'
 s.version = '1.14.2.5'
-s.platform = :ios, '9.0'
+s.platform = :ios, '11.0'
 s.summary = 'Verizon Ads adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = "https://github.com/CocoaPods/Specs/search?o=desc&q=#{s.name}&s=indexed"
 s.license = 
@@ -29,8 +29,12 @@ s.source =
 
 s.vendored_frameworks = "#{s.name}-#{s.version}/#{s.name}.framework"
 
-s.dependency 'Verizon-Ads-StandardEdition', '= 1.14.2'
 s.dependency 'AppLovinSDK'
+
+# TODO: For local dev work
+s.static_framework = true
+s.dependency 'Yahoo-Mobile-SDK', '= 1.0.0-beta1'
+s.source_files = 'VerizonAdsAdapter/ALVerizonAdsMediationAdapter.{h,m}'
 
 s.pod_target_xcconfig =
 {

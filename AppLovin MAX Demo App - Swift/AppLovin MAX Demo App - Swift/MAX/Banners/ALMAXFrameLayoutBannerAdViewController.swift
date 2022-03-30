@@ -12,7 +12,7 @@ import AppLovinSDK
 
 class ALMAXFrameLayoutBannerAdViewController: ALBaseAdViewController, MAAdViewAdDelegate, MAAdRevenueDelegate
 {
-    private let adView = MAAdView(adUnitIdentifier: "YOUR_AD_UNIT_ID")
+    private let adView = MAAdView(adUnitIdentifier: "df9332ae2750c01d")
     
     // MARK: View Lifecycle
     

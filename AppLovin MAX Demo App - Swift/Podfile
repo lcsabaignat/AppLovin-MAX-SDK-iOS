@@ -1,6 +1,14 @@
 use_frameworks!
 inhibit_all_warnings!
 
+# TODO: For local dev work
+platform :ios, '11.0'
+source 'https://github.com/flurry/Yahoo-Mobile-SDK.git'
+source 'https://cdn.cocoapods.org'
+
 target 'AppLovin MAX Demo App - Swift' do
   pod 'AppLovinSDK'
+  # TODO: For local dev work
+  pod 'Adjust'
+  pod 'AppLovinMediationVerizonAdsAdapter', :path => '../VerizonAds'
 end
