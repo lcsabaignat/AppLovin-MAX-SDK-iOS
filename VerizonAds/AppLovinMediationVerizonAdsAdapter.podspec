@@ -33,7 +33,7 @@ s.dependency 'AppLovinSDK'
 
 # TODO: For local dev work
 s.static_framework = true
-s.dependency 'Yahoo-Mobile-SDK', '= 1.0.0-beta1'
+s.dependency 'Yahoo-Mobile-SDK', '= 1.0.0'
 s.source_files = 'VerizonAdsAdapter/ALVerizonAdsMediationAdapter.{h,m}'
 
 s.pod_target_xcconfig =
